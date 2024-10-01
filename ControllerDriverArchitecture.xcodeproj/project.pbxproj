@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		E84D0A4C2CAC948E00711BB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E84D0A332CAC948C00711BB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E84D0A3A2CAC948C00711BB8;
+			remoteInfo = ControllerDriverArchitecture;
+		};
+		E84D0A562CAC948E00711BB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E84D0A332CAC948C00711BB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E84D0A3A2CAC948C00711BB8;
+			remoteInfo = ControllerDriverArchitecture;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E84D0A3B2CAC948C00711BB8 /* ControllerDriverArchitecture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ControllerDriverArchitecture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E84D0A4B2CAC948E00711BB8 /* ControllerDriverArchitectureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ControllerDriverArchitectureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E84D0A552CAC948E00711BB8 /* ControllerDriverArchitectureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ControllerDriverArchitectureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		E84D0A3D2CAC948C00711BB8 /* ControllerDriverArchitecture */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ControllerDriverArchitecture;
+			sourceTree = "<group>";
+		};
+		E84D0A4E2CAC948E00711BB8 /* ControllerDriverArchitectureTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ControllerDriverArchitectureTests;
+			sourceTree = "<group>";
+		};
+		E84D0A582CAC948E00711BB8 /* ControllerDriverArchitectureUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ControllerDriverArchitectureUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E84D0A382CAC948C00711BB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E84D0A482CAC948E00711BB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E84D0A522CAC948E00711BB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E84D0A322CAC948C00711BB8 = {
+			isa = PBXGroup;
+			children = (
+				E84D0A3D2CAC948C00711BB8 /* ControllerDriverArchitecture */,
+				E84D0A4E2CAC948E00711BB8 /* ControllerDriverArchitectureTests */,
+				E84D0A582CAC948E00711BB8 /* ControllerDriverArchitectureUITests */,
+				E84D0A3C2CAC948C00711BB8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E84D0A3C2CAC948C00711BB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E84D0A3B2CAC948C00711BB8 /* ControllerDriverArchitecture.app */,
+				E84D0A4B2CAC948E00711BB8 /* ControllerDriverArchitectureTests.xctest */,
+				E84D0A552CAC948E00711BB8 /* ControllerDriverArchitectureUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E84D0A3A2CAC948C00711BB8 /* ControllerDriverArchitecture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E84D0A5F2CAC948E00711BB8 /* Build configuration list for PBXNativeTarget "ControllerDriverArchitecture" */;
+			buildPhases = (
+				E84D0A372CAC948C00711BB8 /* Sources */,
+				E84D0A382CAC948C00711BB8 /* Frameworks */,
+				E84D0A392CAC948C00711BB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				E84D0A3D2CAC948C00711BB8 /* ControllerDriverArchitecture */,
+			);
+			name = ControllerDriverArchitecture;
+			packageProductDependencies = (
+			);
+			productName = ControllerDriverArchitecture;
+			productReference = E84D0A3B2CAC948C00711BB8 /* ControllerDriverArchitecture.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E84D0A4A2CAC948E00711BB8 /* ControllerDriverArchitectureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E84D0A622CAC948E00711BB8 /* Build configuration list for PBXNativeTarget "ControllerDriverArchitectureTests" */;
+			buildPhases = (
+				E84D0A472CAC948E00711BB8 /* Sources */,
+				E84D0A482CAC948E00711BB8 /* Frameworks */,
+				E84D0A492CAC948E00711BB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E84D0A4D2CAC948E00711BB8 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E84D0A4E2CAC948E00711BB8 /* ControllerDriverArchitectureTests */,
+			);
+			name = ControllerDriverArchitectureTests;
+			packageProductDependencies = (
+			);
+			productName = ControllerDriverArchitectureTests;
+			productReference = E84D0A4B2CAC948E00711BB8 /* ControllerDriverArchitectureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E84D0A542CAC948E00711BB8 /* ControllerDriverArchitectureUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E84D0A652CAC948E00711BB8 /* Build configuration list for PBXNativeTarget "ControllerDriverArchitectureUITests" */;
+			buildPhases = (
+				E84D0A512CAC948E00711BB8 /* Sources */,
+				E84D0A522CAC948E00711BB8 /* Frameworks */,
+				E84D0A532CAC948E00711BB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E84D0A572CAC948E00711BB8 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E84D0A582CAC948E00711BB8 /* ControllerDriverArchitectureUITests */,
+			);
+			name = ControllerDriverArchitectureUITests;
+			packageProductDependencies = (
+			);
+			productName = ControllerDriverArchitectureUITests;
+			productReference = E84D0A552CAC948E00711BB8 /* ControllerDriverArchitectureUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E84D0A332CAC948C00711BB8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					E84D0A3A2CAC948C00711BB8 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					E84D0A4A2CAC948E00711BB8 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = E84D0A3A2CAC948C00711BB8;
+					};
+					E84D0A542CAC948E00711BB8 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = E84D0A3A2CAC948C00711BB8;
+					};
+				};
+			};
+			buildConfigurationList = E84D0A362CAC948C00711BB8 /* Build configuration list for PBXProject "ControllerDriverArchitecture" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E84D0A322CAC948C00711BB8;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = E84D0A3C2CAC948C00711BB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E84D0A3A2CAC948C00711BB8 /* ControllerDriverArchitecture */,
+				E84D0A4A2CAC948E00711BB8 /* ControllerDriverArchitectureTests */,
+				E84D0A542CAC948E00711BB8 /* ControllerDriverArchitectureUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E84D0A392CAC948C00711BB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E84D0A492CAC948E00711BB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E84D0A532CAC948E00711BB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E84D0A372CAC948C00711BB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E84D0A472CAC948E00711BB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E84D0A512CAC948E00711BB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E84D0A4D2CAC948E00711BB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E84D0A3A2CAC948C00711BB8 /* ControllerDriverArchitecture */;
+			targetProxy = E84D0A4C2CAC948E00711BB8 /* PBXContainerItemProxy */;
+		};
+		E84D0A572CAC948E00711BB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E84D0A3A2CAC948C00711BB8 /* ControllerDriverArchitecture */;
+			targetProxy = E84D0A562CAC948E00711BB8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E84D0A5D2CAC948E00711BB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E84D0A5E2CAC948E00711BB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E84D0A602CAC948E00711BB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ControllerDriverArchitecture/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nick.raptis.controller.driver.ControllerDriverArchitecture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E84D0A612CAC948E00711BB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ControllerDriverArchitecture/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nick.raptis.controller.driver.ControllerDriverArchitecture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E84D0A632CAC948E00711BB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nick.raptis.controller.driver.ControllerDriverArchitectureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ControllerDriverArchitecture.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ControllerDriverArchitecture";
+			};
+			name = Debug;
+		};
+		E84D0A642CAC948E00711BB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nick.raptis.controller.driver.ControllerDriverArchitectureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ControllerDriverArchitecture.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ControllerDriverArchitecture";
+			};
+			name = Release;
+		};
+		E84D0A662CAC948E00711BB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nick.raptis.controller.driver.ControllerDriverArchitectureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ControllerDriverArchitecture;
+			};
+			name = Debug;
+		};
+		E84D0A672CAC948E00711BB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nick.raptis.controller.driver.ControllerDriverArchitectureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ControllerDriverArchitecture;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E84D0A362CAC948C00711BB8 /* Build configuration list for PBXProject "ControllerDriverArchitecture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E84D0A5D2CAC948E00711BB8 /* Debug */,
+				E84D0A5E2CAC948E00711BB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E84D0A5F2CAC948E00711BB8 /* Build configuration list for PBXNativeTarget "ControllerDriverArchitecture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E84D0A602CAC948E00711BB8 /* Debug */,
+				E84D0A612CAC948E00711BB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E84D0A622CAC948E00711BB8 /* Build configuration list for PBXNativeTarget "ControllerDriverArchitectureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E84D0A632CAC948E00711BB8 /* Debug */,
+				E84D0A642CAC948E00711BB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E84D0A652CAC948E00711BB8 /* Build configuration list for PBXNativeTarget "ControllerDriverArchitectureUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E84D0A662CAC948E00711BB8 /* Debug */,
+				E84D0A672CAC948E00711BB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E84D0A332CAC948C00711BB8 /* Project object */;
+}
